@@ -1,0 +1,9 @@
+[server]
+    bind_address = "0.0.0.0"
+    bind_port = 5000
+
+[pokeapi]
+    base_url = "https://pokeapi.co/api/v2/"
+
+[shakespearer]
+    base_url = "https://api.funtranslations.com/translate/shakespeare.json"

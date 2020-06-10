@@ -1,0 +1,13 @@
+[package]
+name = "pokeshakespear"
+version = "0.1.0"
+authors = ["Dario Cancelliere <emulator000@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = { version = "^2.0", features = ["rustls"] }
+actix-rt = "1"
+serde="^1.0"
+serde_json="^1.0"
+chrono="^0.4"
+toml="^0.5"
