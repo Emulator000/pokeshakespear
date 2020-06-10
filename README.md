@@ -8,7 +8,7 @@ You need Docker in order to run this application. Visit https://docs.docker.com/
 
 Building
 ---------
-You can build the application again for the Docker enviroment with the command: `cargo +stable build --release --target x86_64-unknown-linux-musl --locked`
+You can build the application for the Docker enviroment with the command: `cargo +stable build --release --target x86_64-unknown-linux-musl --locked`
 
 If you want just to run the application in the host machine, please install the Rust enviroment and run the command: `cargo +stable run --release`
 
